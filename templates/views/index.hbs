@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="theme-color" content="#000000" />
+    <title>Weather</title>
+    <link rel="icon" href="img/weather.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="main-content">
+      {{>header}}
+      <p>Use this page to get your weather!</p>
+      <form>
+        <input type="text" placeholder="Enter location" />
+        <button>Search</button>
+      </form>
+      <p id="message1"></p>
+      <p id="message2"></p>
+    </div>
+    {{>footer}}
+    <script src="js/main.js"></script>
+  </body>
+</html>
